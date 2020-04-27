@@ -58,3 +58,11 @@
     font-size: 14px;
     line-height: 20px;
   }
+  
+  .team {
+    display: inline;
+  }
+
+  .team {
+    margin-bottom: 30px;
+  }
