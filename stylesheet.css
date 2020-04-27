@@ -1,10 +1,9 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
+  margin: 0;
   font-family: "Lucida Grande";
 }
 
@@ -21,115 +20,6 @@ a {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
-}
-
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image:  linear-gradient(
-          rgba(0, 0, 0, 0.5),
-          rgba(0, 0, 0, 0.5)
-        ), url("top.png");
-  background-size: cover;
-  color: white;
-  text-align: center;
-  transition-duration: 4s;
-}
-
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
-}
-
-.top-wrapper p {
-  opacity: 0.7;
-  margin-bottom: 3px;
-}
-
-.btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.signup {
-  background-color: #695ed6;
-}
-
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.4);
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
-
-.header-left h1 {
-  font-size: 37px;
-  color: white;
-  font-family: "lato", sans-serif;
-  margin-top: 10px;
-}
-
-.header-left {
-  float: left;
-}
-
-.header-right {
-  float: right;
-  margin-right: -25px;
-}
-
-.header-right a {
-  font-family: "lato", sans-serif;
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
-}
-
-.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-}
-
-.about-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
 }
 
 .service-wrapper {
@@ -149,32 +39,13 @@ header {
 }
 
 .heading {
-  padding-top: 90px;
-  padding-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 50px;
   color: #5f5d60;
-}
-
-.heading h1 {
-  font-weight: bold;
 }
 
 .heading h2 {
   font-weight: normal;
-}
-
-.about {
-  float: left;
-  width: 50%;
-}
-
-.about-img {
-  position: relative;
-}
-
-.about-img img {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
 }
 
 .lesson {
@@ -186,6 +57,19 @@ header {
   position: relative;
 }
 
+.team {
+    display: inline;
+  }
+
+
+  .team {
+    margin-bottom: 30px;
+  }
+
+.team img {
+  width: 20%;
+}
+
 .lesson-icon p {
   position: absolute;
   top: 44%;
@@ -195,8 +79,9 @@ header {
 
 .text-contents {
   width: 80%;
-  display: inline-block;
+  display:inline-block;
   margin-top: 15px;
   font-size: 15px;
   color: #b3aeb5;
 }
+
