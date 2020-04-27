@@ -76,15 +76,17 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgba(34, 49, 52, 0.4);
   position :fixed;
   top: 0;
   z-index: 10;
 }
 
 .header-left h1 {
-  width: 124px;
-  margin-top: 20px;
+  font-size: 37px;
+  color: white;
+  font-family: "lato", sans-serif;
+  margin-top: 10px;
 }
 
 .header-left {
@@ -97,6 +99,7 @@ header {
 }
 
 .header-right a {
+  font-family: "lato", sans-serif;
   line-height: 65px;
   padding: 0 25px;
   color: white;
