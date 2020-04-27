@@ -8,20 +8,24 @@
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="animated.css">
     <!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="footer.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <!--Charlie.-->
     <header>
       <div class="container">
         <div class="header-left">
-          <h1>C36</h1>
+          <h1>C<span style="color:yellow">36</span></h1>
         </div>
         <span class="fa fa-bars menu-icon"></span>
         <div class="header-right">
           <a href="#">Home</a>
           <a href="#">About</a>
           <a href="#">Services</a>
-          <a href="#" class="login">Contact</a>
+          <a href="#" class="contacts">Contacts</a>
         </div>
       </div>
     </header>
@@ -143,17 +147,42 @@
     <div class="contact-wrapper">
       <div class="container">
         <div class="heading">
-          <h2>Apakah anda siap untuk menjadi programer yang handal?</h2>
-          <h3>Ayo belajar coding, ayo belajar menjadi lebih kreatif!</h3>
+          <h2>Contact Us</h2>
         </div>
-        <span class="btn message">Mulai Belajar</span>
+        <div class="contact-message">
+          <h3>Leave Us Message</h3>
+          <form action="" method="post" class="flex flex-column">
+            <div class="form-input flex flex-row">
+              <input type="text" class="flex-grow-1" placeholder="Name">
+              <input type="text" class="flex-grow-1" placeholder="Email">
+            </div>
+            <textarea name="" id="" rows="10" style="padding: 20px;" placeholder="Message"></textarea>
+            <button value="submit" type="submit">Send Message</button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h3>Contact Info</h3>
+          <p>Jl. Pegangsaan Timur No.19B, Cikini, Menteng, RT.1/RW.1, Pegangsaan, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10320</p>
+          <p>inquieries@c36.com</p>
+          <p>+62 021 536 785</p>
+        </div>
       </div>
     </div>
     <!--Dedi. div untuk footer, kalau mau di pasang logo progate dan kominfo boleh juga-->
     <footer>
       <div class="container">
-        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-        <p>Learn to code, learn to be creative.</p>
+        <div class="flex justify-content-between">
+          <div>
+            <a href="https://progate.com"><img src="https://prog-8.com/images/html/advanced/footer_logo.png"></a>
+            <p>Learn to code, learn to be creative.</p>
+          </div>
+          <div>
+           <p class="copyright">Copyright © 2020 All rights reserved | made with &hearts; by C36 Team</p>
+          </div>
+          <div>
+            <a href="https://digitalent.kominfo.go.id"><img src="https://digitalent.kominfo.go.id/assets/@images/logo.png"></a>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
