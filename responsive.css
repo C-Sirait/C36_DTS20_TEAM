@@ -5,6 +5,11 @@
     margin-bottom: 50px;
   }
 
+  .about {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
   .top-wrapper h1 {
     font-size: 32px;
   }
@@ -20,6 +25,10 @@
     width: 100%;
   }
 
+  .about {
+    width: 100%;
+  }
+
   footer {
     text-align: center;
   }
@@ -32,12 +41,10 @@
     text-align: left;
   }
 
-  /* Tambahkan CSS untuk header-right */
   .header-right {
     display: none;
   }
 
-  /* Tambahkan CSS untuk menu-icon */
   .menu-icon {
     display: block;
   }

@@ -1,9 +1,10 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
   font-family: "Lucida Grande";
 }
 
@@ -24,10 +25,14 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-image:  linear-gradient(
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ), url("top.png");
   background-size: cover;
   color: white;
   text-align: center;
+  transition-duration: 4s;
 }
 
 .top-wrapper h1 {
@@ -52,7 +57,7 @@ a {
 }
 
 .signup {
-  background-color: #239b76;
+  background-color: #695ed6;
 }
 
 .btn {
@@ -75,15 +80,17 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgba(34, 49, 52, 0.4);
   position :fixed;
   top: 0;
   z-index: 10;
 }
 
 .header-left h1 {
-  width: 124px;
-  margin-top: 20px;
+  font-size: 37px;
+  color: white;
+  font-family: "lato", sans-serif;
+  margin-top: 10px;
 }
 
 .header-left {
@@ -96,6 +103,7 @@ header {
 }
 
 .header-right a {
+  font-family: "lato", sans-serif;
   line-height: 65px;
   padding: 0 25px;
   color: white;
@@ -108,7 +116,6 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* Kita pakai juga? */
 .menu-icon {
   color: white;
   float: right;
@@ -142,13 +149,32 @@ header {
 }
 
 .heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding-top: 90px;
+  padding-bottom: 80px;
   color: #5f5d60;
+}
+
+.heading h1 {
+  font-weight: bold;
 }
 
 .heading h2 {
   font-weight: normal;
+}
+
+.about {
+  float: left;
+  width: 50%;
+}
+
+.about-img {
+  position: relative;
+}
+
+.about-img img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
 
 .lesson {
@@ -173,41 +199,4 @@ header {
   margin-top: 15px;
   font-size: 15px;
   color: #b3aeb5;
-}
-
-.heading h3 {
-  font-weight: normal;
-}
-
-.contact-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
-
-footer img {
-  width: 125px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
-
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
 }
