@@ -149,8 +149,8 @@ header {
 }
 
 .heading {
-  padding-top: 90px;
-  padding-bottom: 80px;
+  padding-top: 80px;
+  padding-bottom: 50px;
   color: #5f5d60;
 }
 
@@ -160,6 +160,43 @@ header {
 
 .heading h2 {
   font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.team {
+    display: inline;
+  }
+
+
+  .team {
+    margin-bottom: 30px;
+  }
+
+.team img {
+  width: 20%;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display:inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
 }
 
 .about {
